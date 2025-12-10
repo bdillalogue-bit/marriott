@@ -1,6 +1,6 @@
 # Marriott Construction
 
-Professional construction services for commercial and residential projects. Licensed, bonded, and insured.
+Professional constructions services for commercial and residential projects. Licensed, bonded, and insured.
 
 ## Live Site
 Once deployed to GitHub Pages, view at: [https://yourusername.github.io/marriott-construction](https://yourusername.github.io/marriott-construction)
