@@ -121,7 +121,29 @@
             border-radius: 8px;
             box-shadow: 0 4px 10px rgba(0,0,0,0.1);
         }
+
+        /* JOTFORM BRANDING REMOVAL FIX */
+        /* This targets the iframe and attempts to hide the branding elements often used by JotForm */
+        .jotform-embed iframe {
+            min-height: 400px; /* Ensure the iframe has space */
+            width: 100%;
+            /* Specific CSS to target and hide the JotForm footer element within the embedded content */
+        }
         
+        /* Attempt to hide the JotForm "powered by" link that might load outside the iframe */
+        #copyright, .form-footer, .form-line-error {
+            display: none !important;
+            height: 0 !important;
+            overflow: hidden !important;
+            padding: 0 !important;
+            margin: 0 !important;
+        }
+
+        /* Ensure the form itself still has padding, without the footer padding */
+        .form-all {
+            padding-bottom: 0 !important; 
+        }
+
         /* Contact Section */
         .contact {
             background: var(--primary);
